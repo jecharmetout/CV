@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+/* *{
+  padding: 0;
+  margin: 0;
+} */
 body {
   background-color: #f1f1f1;
   color: #0f141e;
@@ -26,6 +31,9 @@ a:visited {
   width: 200px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.info {
+  margin-bottom: 20px;
 }
 .info p {
   color: #86898f;
@@ -79,4 +87,24 @@ a:visited {
   padding: 15px 20px;
   margin-bottom: 20px;
   border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
 }
