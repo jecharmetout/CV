@@ -159,3 +159,14 @@ a:visited {
 .row > .form-group:last-child {
   margin-right: 0;
 }
+.btn {
+  background-color: #111111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
