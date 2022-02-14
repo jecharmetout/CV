@@ -108,3 +108,6 @@ a:visited {
 .table td:nth-child(3) {
   color: #86898f;
 }
+/* .table tr:nth-child(even или odd) {
+  background: red;
+} */
